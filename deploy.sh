@@ -6,6 +6,6 @@ echo pwd `pwd`
 
 git pull
 
-echo "pull success..."
+echo "pull success...."
 
 
