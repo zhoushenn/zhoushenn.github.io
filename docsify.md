@@ -17,4 +17,7 @@ server {
 }
 
 ## webhook
-https://github.com/adnanh/webhook
+https://github.com/adnanh/webhook  
+
+start hook server  
+nohup webhook -hooks hooks.json &  
