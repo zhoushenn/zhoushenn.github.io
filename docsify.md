@@ -20,5 +20,4 @@ server {
 https://github.com/adnanh/webhook  
 
 start hook server  
-nohup webhook -hooks hooks.json &    
-1
+nohup webhook -hooks hooks.json &  
