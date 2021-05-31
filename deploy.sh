@@ -1,5 +1,7 @@
 #!/bin/sh
 
-git pull
+cd /root/www/zhoushenn.github.io && git pull
 
 echo "pull success..."
+
+
