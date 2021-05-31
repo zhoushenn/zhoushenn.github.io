@@ -1,0 +1,7 @@
+[
+  {
+    "id": "redeploy-webhook",
+    "execute-command": "/root/www/zhoushenn.github.io/deploy.sh",
+    "command-working-directory": "/user/local/bin"
+  }
+]
