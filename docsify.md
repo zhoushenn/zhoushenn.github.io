@@ -1,7 +1,7 @@
 
 ## framework
 
-httpsdocsify.js.org#quickstart
+https://docsify.js.org/#/zh-cn/quickstart
 
 
 ## nginx config
