@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T03:21:04.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="RO_XhJFEQQLhIB8A7KNn" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T07:36:23.562Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="G8r3ZyLvqAX7M6da38FG" version="18.0.7" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,45 +8,30 @@
           <mxGeometry x="310" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
-          <mxGeometry x="45" y="100" width="10" height="280" as="geometry" />
+          <mxGeometry x="45" y="100" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="fACrSQQfDdR5ND0cJyuk-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-2">
-          <mxGeometry x="50" y="208" width="10" height="40" as="geometry" />
+        <mxCell id="waG8dCk1hJT_vXQENujO-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry x="50" y="140" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fACrSQQfDdR5ND0cJyuk-31" value="创建模型IO" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="fACrSQQfDdR5ND0cJyuk-30" parent="7baba1c4bc27f4b0-2">
+        <mxCell id="waG8dCk1hJT_vXQENujO-7" value="创建模型IO,存储到数据库" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="waG8dCk1hJT_vXQENujO-6" parent="7baba1c4bc27f4b0-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="188" as="sourcePoint" />
+            <mxPoint x="55" y="120" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="188" />
-              <mxPoint x="85" y="208" />
+              <mxPoint x="85" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fACrSQQfDdR5ND0cJyuk-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-2">
-          <mxGeometry x="50" y="130" width="10" height="40" as="geometry" />
+        <mxCell id="waG8dCk1hJT_vXQENujO-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry x="45" y="400" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="fACrSQQfDdR5ND0cJyuk-41" value="创建Dockerfile" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="7baba1c4bc27f4b0-2" target="fACrSQQfDdR5ND0cJyuk-40">
+        <mxCell id="waG8dCk1hJT_vXQENujO-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry x="50" y="460" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="waG8dCk1hJT_vXQENujO-30" value="更新模型IO为模型创建成功" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="waG8dCk1hJT_vXQENujO-29" parent="7baba1c4bc27f4b0-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="110" as="sourcePoint" />
+            <mxPoint x="55" y="440" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="110" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-3" value="Jenkins" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="620" y="80" width="100" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-3" vertex="1">
-          <mxGeometry x="45" y="270" width="10" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="fACrSQQfDdR5ND0cJyuk-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-3">
-          <mxGeometry x="50" y="310" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fACrSQQfDdR5ND0cJyuk-43" value="Jenkinsfile构建镜像" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="fACrSQQfDdR5ND0cJyuk-42" parent="7baba1c4bc27f4b0-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="290" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="85" y="290" />
+              <mxPoint x="85" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -54,23 +39,61 @@
           <mxGeometry x="100" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-8" vertex="1">
-          <mxGeometry x="45" y="100" width="10" height="180" as="geometry" />
+          <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-11" value="请求创建模型" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-9" target="7baba1c4bc27f4b0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fACrSQQfDdR5ND0cJyuk-6" value="发起镜像构建通知" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=open;startSize=8;rounded=0;exitX=1;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-13">
-          <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="365" y="334.5" as="sourcePoint" />
-            <mxPoint x="425" y="334.5" as="targetPoint" />
+        <mxCell id="waG8dCk1hJT_vXQENujO-2" value="模型镜像管理服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="waG8dCk1hJT_vXQENujO-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="waG8dCk1hJT_vXQENujO-2">
+          <mxGeometry x="45" y="200" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="waG8dCk1hJT_vXQENujO-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="waG8dCk1hJT_vXQENujO-2">
+          <mxGeometry x="50" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="waG8dCk1hJT_vXQENujO-12" value="构建Dockerfile&lt;br&gt;构建k8s 镜像build yaml" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="waG8dCk1hJT_vXQENujO-11" parent="waG8dCk1hJT_vXQENujO-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="220" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fACrSQQfDdR5ND0cJyuk-46" value="异步http通知构建结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.1;entryY=0.821;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-10">
+        <mxCell id="waG8dCk1hJT_vXQENujO-4" value="K8S" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="waG8dCk1hJT_vXQENujO-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="waG8dCk1hJT_vXQENujO-4">
+          <mxGeometry x="45" y="350" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="waG8dCk1hJT_vXQENujO-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="waG8dCk1hJT_vXQENujO-4">
+          <mxGeometry x="50" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="waG8dCk1hJT_vXQENujO-20" value="1.构建docker镜像&lt;br&gt;2.镜像推送到仓库" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="waG8dCk1hJT_vXQENujO-19" parent="waG8dCk1hJT_vXQENujO-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="670" y="410" as="sourcePoint" />
-            <mxPoint x="370" y="410" as="targetPoint" />
+            <mxPoint x="55" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waG8dCk1hJT_vXQENujO-9" value="异步消息通知构建镜像" style="html=1;verticalAlign=bottom;endArrow=open;entryX=0;entryY=0;rounded=0;endFill=0;exitX=0.952;exitY=0.917;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="waG8dCk1hJT_vXQENujO-8" parent="1" source="7baba1c4bc27f4b0-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waG8dCk1hJT_vXQENujO-17" value="k8sSdk.apply&amp;nbsp; yaml&amp;nbsp; &amp;nbsp; 运行容器" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.09;exitY=0.945;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="waG8dCk1hJT_vXQENujO-16" parent="1" source="waG8dCk1hJT_vXQENujO-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waG8dCk1hJT_vXQENujO-21" value="curl 回调通知镜像创建成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.341;exitY=0.686;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="waG8dCk1hJT_vXQENujO-19" target="waG8dCk1hJT_vXQENujO-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="500" as="sourcePoint" />
+            <mxPoint x="640" y="497" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
